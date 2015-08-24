@@ -11,26 +11,23 @@
     <script src="bower_components/underscore/underscore-min.js"></script>
         <!-- your scripts -->
     <script src="env/config.js"></script>
-    <script src="scripts/app3.js"></script>
+    <script src="scripts/app.js"></script>
   </head>
   <body>
 
-    <script>
+    <!--<script>
       $(app.init.bind(app));
-    </script>    <div id="main">
-      <h1>chatterbox</h1>
+    </script> -->   <div id="main">
+      <h1>Chatterbox</h1>
       <!-- Your HTML goes here! -->
 
-      <div class="spinner"><img src="images/spiffygif_46x46.gif"></div>
-      <div id="rooms">
+     <!--  <div id="rooms">
         Room:
         <select id="roomSelect">
         </select>
-      </div>
+      </div> -->
       <form action="#" id="send" method="post">
-        <input type="text" name="message" id="username"/>
-        <input type="text" name="message" id="text"/>
-        <input type="text" name="message" id="roomname"/>
+        <input type="text" name="message" id="message"/>
         <input type="submit" name="submit" class="submit"/>
       </form>
       <div id="chats"></div>    </div>
